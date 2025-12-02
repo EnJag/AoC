@@ -1,4 +1,4 @@
-with open("f1/f11.txt", "r") as fichier:
+with open("f1/f1.txt", "r") as fichier:
     contenu = fichier.read()
     l = [ligne for ligne in contenu.splitlines()]
     dial = 50
